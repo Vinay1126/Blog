@@ -1,0 +1,67 @@
+.signIn {
+    background: cornsilk;
+    /* height: 43rem; */
+}
+
+.backBtn {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+.mgHead {
+    margin-top: 4rem;
+}
+
+.mgTop {
+    margin: 7rem 0 2rem .7rem;
+}
+
+.selectOption {
+    border-radius: 20rem;
+    width: 15rem;
+}
+
+.contentArea {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    resize: none;
+    overflow: hidden;
+    width: 26rem;
+    height: 10rem;
+}
+
+.submitBtn {
+    margin-top: 1rem;
+    border-radius: 10rem;
+    height: 3rem;
+    width: 14rem;
+    background: blue;
+    color: white;
+    font-size: 1.4rem;
+}
+
+@media (max-width:414px) {
+    .contentArea {
+        width: 23rem;
+    }
+}
+
+@media (max-width:375px) {
+    .contentArea {
+        width: 21rem;
+    }
+}
